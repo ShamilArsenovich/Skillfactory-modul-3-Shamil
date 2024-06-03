@@ -1,0 +1,76 @@
+header{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    align-content: flex-end
+}
+.main__info-block{
+    display: block;
+    width: 318px;
+    border-left: 5px solid orange;
+    padding : 10px;
+    color: gray;
+    margin: 30px auto 0 auto;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main__info-text{
+    border-left: 5px solid orange;
+    padding: 10px;
+    color: gray;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.phone {
+    position: relative;
+    padding-left: 17px;
+}
+
+.phone::before{
+    content: "";
+    background: url(/images/png/smartphone_20dp.png) no-repeat;
+    position: absolute;
+    min-width: 10vh;
+    height: 64px;
+    background-size: 15px;
+    top: 2px;
+    left: 2px;
+    margin: 0;
+}
+
+.mail{
+    position: relative;
+    padding: 17px;
+}
+
+.mail::before{
+    content: "";
+    background: url(/images/png/alternate_email_20dp.png) no-repeat;
+    position: absolute;
+    min-width: 10vh;
+    height: 64px;
+    background-size: 15px;
+    top: 18px;
+    left: 2px;
+    margin: 0;
+}
+
+.location{
+    position: relative;
+    padding-left: 17px;
+}
+
+.location::before{
+    content: "";
+    background: url(/images/png/my_location_20dp.png) no-repeat;
+    position: absolute;
+    min-width: 10vh;
+    height: 64px;
+    background-size: 15px;
+    top: 2px;
+    left: 2px;
+    margin: 0;
+}
